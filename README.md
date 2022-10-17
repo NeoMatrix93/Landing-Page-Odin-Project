@@ -17,7 +17,7 @@ Update - used an online screen scraper to take the text from the picture in the 
 
 Update - added the content for section 2.  Assuming as its identical I wont need to make a distinction between containers as they'll all be formatted in the same way.  The Image alt label will hopefully help me keep track of order etc until I decide what to put in. Time to commit. 
 
-
+Update - I added the HTML layout for the remaining sections, and noticed that it might make more sense to wrap the hero, text and button in a container for easier placement and control in section 1. Time to commit. 
 
 
 
