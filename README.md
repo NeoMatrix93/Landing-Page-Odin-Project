@@ -3,6 +3,8 @@ My first project created from scratch via The Odin Project's foundation course, 
 
 I will use this as a bit of a comprehensive blog/notebook/journal of my progress and challenges I face within this task, over and above the detail of the regular commit messages. 
 
+Day 1 (10pm - 17 Oct 2022)
+
 My first step is to create the basic boilerplate and high level layout/sections of my page, after which I will commit. 
 
 Update - First mistake made already, I typed out the same thing 4 times rather than once and copy pasting it down.  Need to stop bad habits early.  
@@ -19,8 +21,7 @@ Update - added the content for section 2.  Assuming as its identical I wont need
 
 Update - I added the HTML layout for the remaining sections, and noticed that it might make more sense to wrap the hero, text and button in a container for easier placement and control in section 1. Time to commit. 
 
-
-
+Break - (11pm - 17 Oct 2022)
 
 
 
