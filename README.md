@@ -23,7 +23,18 @@ Update - I added the HTML layout for the remaining sections, and noticed that it
 
 Break - (11pm - 17 Oct 2022)
 
-================================================================================================================
+=============================================================================================================
+
+DAY 2 - 7pm - 18 Oct 2022
+
+Here we go again.  Now that the basic HTML Layout is done, my goal for the next couple hours is to get the CSS layout the way it needs to be. If not with the styling, at least with the flexbox placements.  lets begin.
+
+Update - an observation which I really think I need to keep at the forefront of my mind when debugging on CSS.. check to see if its a class which requires a '.' or whether its an element I am declaring in the stylesheet.  Maybe worth me looking up whether it's best practice to always declare a class, and to what extent/specificity.
+
+Update - being tripped up slightly by the section layouts. Trying to get footer to stick to the bottom and the 100vh is showiing a slight scroll wheel and I'm trying to find out why thats happening. 
+
+Update - did some googling and found out how to fix it (I think).  added html to body for the margin/padding top bottom set to 0% rule.  I'm using flexbox to space out my sections at a ratio of 1, 30, 1 for the header main and footer but not sure whats best practice here.   My plan is to see if that approach works for other sections too. 
+
 
 
 
