@@ -13,6 +13,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Rajdhani-Bold";
+  flex-wrap: wrap;
 }
 
 * > p {
@@ -47,6 +48,7 @@ body {
 
 .nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: 30px 0px;
@@ -63,9 +65,14 @@ body {
 
 .nav-links > * {
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
   font-size: larger;
   color: rgb(255, 132, 0);
+}
+
+ul {
+  margin-right: 75px;
 }
 
 ul li {
@@ -81,8 +88,11 @@ a {
 
 .intro {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 5rem;
 }
 
 .sub-intro {
@@ -109,9 +119,10 @@ a {
 }
 
 .header img {
-  width: 225px;
+  width: 175px;
   flex-wrap: wrap;
   border: 2px solid rgb(255, 132, 0);
+  border-radius: 50%;
 }
 
 /* HEADER END */
@@ -198,7 +209,7 @@ h2 span {
 .section2 {
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 50px;
   background-color: #373535;
   border-bottom: 1px solid rgb(255, 132, 0);
 }
@@ -211,11 +222,31 @@ h2 span {
   align-items: center;
   justify-content: center;
   display: flex;
+  border-bottom: 1px solid rgb(255, 132, 0);
 }
 
 .subsection3 {
   display: flex;
+  flex-grow: 0;
+  justify-content: space-between;
+  border: 1px solid rgb(255, 132, 0);
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.s3-text {
+  display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+  color: antiquewhite;
+  font-weight: 600;
+}
+
+.s3-text span {
+  color: rgb(255, 132, 0);
+  font-weight: 900;
 }
 
 .quote {
@@ -234,6 +265,19 @@ h3 span {
   color: rgb(255, 132, 0);
 }
 
+.button2 {
+  width: 80px;
+  height: 30px;
+  color: rgb(255, 132, 0);
+  background-color: antiquewhite;
+  margin: 20px;
+}
+
+:hover.button2 {
+  color: antiquewhite;
+  background-color: rgb(255, 132, 0);
+}
+
 /* MAIN END */
 
 /* FOOTER START */
@@ -241,10 +285,22 @@ h3 span {
   background-color: rgb(255, 132, 0);
   flex: 0;
   color: #373535;
-  padding: 10px 0px;
+  padding: 5px 0px;
+  background-image: url(images/Gif/matrix.gif);
+  align-items: center;
+  justify-content: center;
 }
 
 h4 {
   text-align: center;
   font-family: "Rajdhani-Bold";
+  color: antiquewhite;
+}
+
+h4 span {
+  color: rgb(255, 132, 0);
+}
+
+button {
+  text-transform: uppercase;
 }
