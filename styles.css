@@ -31,17 +31,18 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 0% 10%;
   background-color: #121212;
+  margin-inline: auto;
+  flex-wrap: wrap;
 }
 
 /* HEADER START */
 .header {
   display: flex;
   flex-direction: column;
-  margin-bottom: 75px;
   padding: 0 50px 50px;
-  background-color: #a7a7a7;
+  background-color: #373535;
+  border-bottom: 2px solid rgb(255, 132, 0);
 }
 
 .nav {
@@ -52,11 +53,19 @@ body {
   text-transform: uppercase;
 }
 
+.nav-title {
+  color: #7a7878;
+}
+
+.nav-title span {
+  color: rgb(255, 132, 0);
+}
+
 .nav-links > * {
   display: flex;
   gap: 2rem;
   font-size: larger;
-  color: #a7a7a7;
+  color: rgb(255, 132, 0);
 }
 
 ul li {
@@ -79,18 +88,30 @@ a {
 .sub-intro {
   display: flex;
   flex-direction: column;
+  color: antiquewhite;
+}
+
+.sub-intro span {
+  color: rgb(255, 132, 0);
 }
 
 .button {
   width: 60px;
   margin-top: 10px;
   padding: 5px;
+  color: rgb(255, 132, 0);
+  background-color: antiquewhite;
+}
+
+:hover.button {
+  color: antiquewhite;
+  background-color: rgb(255, 132, 0);
 }
 
 .header img {
   width: 225px;
   flex-wrap: wrap;
-  border: 3px solid rgb(43, 247, 20);
+  border: 3px solid rgb(255, 132, 0);
 }
 
 /* HEADER END */
@@ -99,25 +120,21 @@ a {
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   flex: 1;
-  align-items: center;
   text-align: center;
-  width: 100%;
-}
-
-section {
-  margin-bottom: 50px;
+  margin-inline: auto;
 }
 
 .section1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #373535;
 }
 
 .section1 h2 {
-  margin-bottom: 50px;
+  padding: 50px 50px 50px;
+  color: antiquewhite;
 }
 
 .subsection1 {
@@ -125,6 +142,11 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   gap: 100px;
+  flex: 1;
+}
+
+.sub {
+  padding: 30px 5px;
 }
 
 .sub img {
@@ -135,27 +157,65 @@ section {
 .sub p {
   text-transform: uppercase;
   font-family: "Rajdhani-Bold";
+  font-size: large;
 }
 
-.subsection2 {
+.structure {
+  color: rgb(255, 68, 0);
+}
+
+.style {
+  color: rgb(0, 174, 255);
+}
+
+.sparkle {
+  color: rgb(255, 196, 0);
+}
+
+.snake {
+  color: rgb(255, 242, 122);
+}
+
+.snake span {
+  color: rgb(45, 107, 157);
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
+  background-color: #ffffff;
+}
+
+.section3 {
+  background-color: #824444;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.subsection3 {
   display: flex;
   flex-direction: column;
 }
 
 .quote {
-  flex-basis: 0;
+  flex: 1;
+  flex-wrap: wrap;
 }
 
 h3 {
-  justify-content: end;
+  flex: 1;
+  flex-wrap: wrap;
 }
 
 /* MAIN END */
 
 /* FOOTER START */
 .footer {
-  margin-top: auto;
-  margin: 15px 0px;
+  background-color: #ffffff;
+  flex: 0;
 }
 
 h4 {
