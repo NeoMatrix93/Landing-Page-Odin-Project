@@ -42,7 +42,7 @@ body {
   flex-direction: column;
   padding: 0 50px 50px;
   background-color: #373535;
-  border-bottom: 2px solid rgb(255, 132, 0);
+  border-bottom: 1px solid rgb(255, 132, 0);
 }
 
 .nav {
@@ -111,7 +111,7 @@ a {
 .header img {
   width: 225px;
   flex-wrap: wrap;
-  border: 3px solid rgb(255, 132, 0);
+  border: 2px solid rgb(255, 132, 0);
 }
 
 /* HEADER END */
@@ -129,24 +129,29 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #373535;
+  background-color: rgb(86, 86, 86);
+  border-bottom: 1px solid rgb(255, 132, 0);
 }
 
 .section1 h2 {
-  padding: 50px 50px 50px;
-  color: antiquewhite;
+  padding: 30px;
+  color: rgb(248, 232, 212);
+}
+
+h2 span {
+  color: rgb(255, 132, 0);
 }
 
 .subsection1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 100px;
+  /* gap: 50px; */
   flex: 1;
 }
 
 .sub {
-  padding: 30px 5px;
+  padding-bottom: 25px;
 }
 
 .sub img {
@@ -158,37 +163,50 @@ a {
   text-transform: uppercase;
   font-family: "Rajdhani-Bold";
   font-size: large;
+  margin: 0 15px;
 }
 
 .structure {
   color: rgb(255, 68, 0);
+  border: 1px solid rgb(255, 68, 0);
 }
 
 .style {
   color: rgb(0, 174, 255);
+  border: 1px solid rgb(0, 174, 255);
 }
 
 .sparkle {
   color: rgb(255, 196, 0);
+  border: 1px solid rgb(255, 196, 0);
 }
 
 .snake {
-  color: rgb(255, 242, 122);
+  border-bottom: 1px solid rgb(255, 242, 122);
+  border-right: 1px solid rgb(255, 242, 122);
+  color: rgb(87, 156, 213);
+  border-top: 1px solid rgb(87, 156, 213);
+  border-left: 1px solid;
 }
 
 .snake span {
-  color: rgb(45, 107, 157);
+  color: rgb(255, 242, 122);
 }
+
+/* SECTION 1 END */
 
 .section2 {
   display: flex;
   flex-direction: column;
-  padding: 30px 0px;
-  background-color: #ffffff;
+  padding: 30px;
+  background-color: #373535;
+  border-bottom: 1px solid rgb(255, 132, 0);
 }
 
+/* SECTION 2 END */
+
 .section3 {
-  background-color: #824444;
+  background-color: rgb(86, 86, 86);
   flex: 1;
   align-items: center;
   justify-content: center;
@@ -203,19 +221,27 @@ a {
 .quote {
   flex: 1;
   flex-wrap: wrap;
+  color: antiquewhite;
 }
 
 h3 {
   flex: 1;
   flex-wrap: wrap;
+  color: antiquewhite;
+}
+
+h3 span {
+  color: rgb(255, 132, 0);
 }
 
 /* MAIN END */
 
 /* FOOTER START */
 .footer {
-  background-color: #ffffff;
+  background-color: rgb(255, 132, 0);
   flex: 0;
+  color: #373535;
+  padding: 10px 0px;
 }
 
 h4 {
