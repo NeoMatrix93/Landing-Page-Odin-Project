@@ -38,11 +38,13 @@ Update - did some googling and found out how to fix it (I think). added html to 
 
 Update - went a bit AWOL and found out how to make a GIF the background of my website. Not sure if this is tacky yet, will need to see how it pans out.
 
-====================================================================
+===================================================================================================
 
 DAY 3 - 10:30pm
 
 I decided I hated the first design so starting again from scratch, trying to limit my use of flexboxes where possible after watching another video or two. This commit has the basic html only so far.
+
+===================================================================================================
 
 DAY 4 - I abandoned the journal idea as it was a bit time consuming. Today (20th October) marks the completion of the page. It's complete for the purposes of moving on with the course but I will definitely tinker around and add a couple new features to it, graphical enhancements etc.
 
