@@ -11,9 +11,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Rajdhani-Bold";
-  flex-wrap: wrap;
 }
 
 * > p {
@@ -27,6 +25,7 @@ h1 h2 h3 {
 /* END FONT DECLARATIONS */
 
 /* BASIC BODY MORPHING */
+
 html,
 body {
   min-height: 100vh;
@@ -38,9 +37,8 @@ body {
 }
 
 /* HEADER START */
+
 .header {
-  display: flex;
-  flex-direction: column;
   padding: 0 50px 50px;
   background-color: #373535;
   border-bottom: 1px solid rgb(255, 132, 0);
@@ -63,6 +61,11 @@ body {
   color: rgb(255, 132, 0);
 }
 
+.tag {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 132, 0);
+}
+
 .nav-links > * {
   display: flex;
   flex-wrap: wrap;
@@ -78,7 +81,6 @@ ul {
 .nav li {
   display: inline;
   font-family: "Rajdhani-Regular";
-  position: relative;
 }
 
 .nav a {
@@ -94,7 +96,7 @@ ul {
 .nav a::before {
   content: "";
   display: block;
-  height: 5px;
+  height: 1px;
   width: 0%;
   background-color: rgb(255, 132, 0);
   transition: all ease-in-out 250ms;
@@ -146,6 +148,7 @@ ul {
 /* HEADER END */
 
 /* MAIN START */
+
 .main {
   display: flex;
   flex-direction: column;
@@ -155,9 +158,6 @@ ul {
 }
 
 .section1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   background-color: rgb(86, 86, 86);
   border-bottom: 1px solid rgb(255, 132, 0);
 }
@@ -175,8 +175,6 @@ h2 span {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* gap: 50px; */
-  flex: 1;
 }
 
 .sub {
@@ -225,61 +223,49 @@ h2 span {
 /* SECTION 1 END */
 
 .section2 {
-  display: flex;
-  flex-direction: column;
+  flex: 1;
   padding: 50px;
   background-color: #373535;
   border-bottom: 1px solid rgb(255, 132, 0);
 }
 
+.quote {
+  color: antiquewhite;
+}
+
+h3 {
+  color: antiquewhite;
+}
+
+h3 span {
+  color: rgb(255, 132, 0);
+}
+
 /* SECTION 2 END */
 
+/* SECTION 3 START */
+
 .section3 {
-  background-color: rgb(86, 86, 86);
-  flex: 1;
-  align-items: center;
-  justify-content: center;
   display: flex;
+  background-color: rgb(86, 86, 86);
+  justify-content: center;
   border-bottom: 1px solid rgb(255, 132, 0);
 }
 
 .subsection3 {
   display: flex;
-  flex-grow: 0;
-  justify-content: space-between;
   border: 1px solid rgb(255, 132, 0);
   margin: 20px;
   align-items: center;
-  justify-content: center;
 }
 
 .s3-text {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   margin: 20px;
   color: antiquewhite;
   font-weight: 600;
 }
 
 .s3-text span {
-  color: rgb(255, 132, 0);
-  font-weight: 900;
-}
-
-.quote {
-  flex: 1;
-  flex-wrap: wrap;
-  color: antiquewhite;
-}
-
-h3 {
-  flex: 1;
-  flex-wrap: wrap;
-  color: antiquewhite;
-}
-
-h3 span {
   color: rgb(255, 132, 0);
 }
 
@@ -299,14 +285,12 @@ h3 span {
 /* MAIN END */
 
 /* FOOTER START */
+
 .footer {
   background-color: rgb(255, 132, 0);
-  flex: 0;
   color: #373535;
   padding: 5px 0px;
   background-image: url(images/Gif/matrix.gif);
-  align-items: center;
-  justify-content: center;
 }
 
 h4 {
